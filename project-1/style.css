@@ -1,0 +1,39 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image:url("assest/img/back.jpg");
+    background-position: center center;
+    background-size:max(1200px,100vw);
+   height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.main.box{
+    height: 80vh;
+    width: 100vh;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top:0;}
+    nav{
+        max-width: 60vh;
+        margin: auto;
+        justify-content: space-between;
+        display:flex;
+        align-items: center;
+        height: 62px;
+
+    }
+    nav img{
+        color: red;
+        width: 114;
+        position: relative;
+        z-index: 10;
+    }
+    nav button{
+        position: relative;
+        z-index: 10;
+    }
