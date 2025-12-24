@@ -11,23 +11,23 @@
     <header>
       <div class="box"></div>
       <nav>
-        <img src="assets/l.svg" alt="logo" height="35px" width="200px" />
+        <img src="assets/l.svg" alt="logo" />
         <div>
-          <button class="btn">English</button>
+         <select class="language-btn">
+                    <option value="">English</option>
+                    <option value="">Hindi</option>
+                </select>
           <button class="btn-sign">Sign up</button>
         </div>
       </nav>
       <div class="content">
-        <span> Unlimited movies, shows, and more </span>
-        <span> Starts at ₹149. Cancel at any time. </span>
-        <span>
-          Ready to watch? Enter your email to create or restart your membership.
-        </span>
-     
-      <span class="search">
-        <input type="text" placeholder="Email Address">
-        <button class="btn-start">Get Started</button>    
-      </span>
+        <h1> Unlimited movies, shows, and more</h1>
+        <p>Starts at ₹149. Cancel at any time.</p>
+        <p> Ready to watch? Enter your email to create or restart your membership.</p>
+        <form action="#" class="email-signup">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Get Started <i class="fas fa-chevron-right"></i></button>
+            </form>
        </div>
        <!-- Trending Now Section -->
        <div class="container">
